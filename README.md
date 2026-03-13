@@ -127,22 +127,31 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** Nosiku Mukuka
+**Student ID:** 2022030346
+**Design Theme:** A professional, modern portfolio with a dark blue-gray and bright blue color scheme, complemented by a warm orange accent for CTAs. The design balances clean whitespace, subtle shadows, and approachable typography to convey both technical competence and creative warmth.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [x] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [x] Other: _CSS Transitions and Hoover effects__and Print style sheet____________
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+I had a challenge with creating a flexible project card grid that works at all breakpoints.
+I solved it by using CSS Grid with grid-template-columns changing at each breakpoint (1fr → repeat(2,1fr) → repeat(3,1fr)) and added hover effects for interactivity.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+- Images: Pinterest.
+
+- Fonts: System font stack using Segoe UI, Roboto, Helvetica, and Arial (no external font dependencies).
+
+- Icons: No external icon libraries used (pure CSS/HTML).
+
+- Color Palette: Inspired by modern tech portfolios, with contrast-checked for accessibility.
+
+
 
 ---
 
